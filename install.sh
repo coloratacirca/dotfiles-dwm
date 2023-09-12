@@ -6,5 +6,5 @@ sudo mkdir -p /usr/local/share/fonts
 sudo mv static/* /usr/local/share/fonts
 fc-cache
 rm -rf $HOME/.config
-mv $HOME/dotfiles-dwm $HOME/.config
-mv -t $HOME/ .xinitrc .bashrc 
+mv $HOME/dotfiles-dwm/.config $HOME/.config
+mv -t $HOME/ .xinitrc .bashrc wall.png
