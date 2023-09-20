@@ -64,7 +64,7 @@ run_cmd() {
 	selected="$(confirm_exit)"
 	if [[ "$selected" == "$yes" ]]; then
 		if [[ $1 == '--poweroff' ]]; then
-			doas poweroff
+			sudo poweroff
 		elif [[ $1 == '--reboot' ]]; then
 			sudo reboot
 		elif [[ $1 == '--lock' ]]; then
